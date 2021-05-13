@@ -1,0 +1,74 @@
+                @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+                 :root {
+                    --bg-color: #000000;
+                    --details-color: #F31D1D;
+                    --text2-color: #fff;
+                }
+                
+                body {
+                    font-family: 'ABeeZee', sans-serif;
+                    background-color: var(--bg-color);
+                    color: var(--text2-color);
+                    display: flex;
+                    min-height: 100vh;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    z-index: 2;
+                }
+                
+                header {
+                    font-family: 'ABeeZee', sans-serif;
+                    background-color: var(--text-color);
+                    position: fixed;
+                    top: 0px;
+                    z-index: 2;
+                    width: 80%;
+                    margin: 0% 0% 8% 0%;
+                }
+                
+                main {
+                    margin-top: 124px;
+                    padding-bottom: 3%;
+                }
+                
+                .forgotPassword {
+                    margin-left: 30px;
+                }
+                
+                .hidden {
+                    display: none;
+                }
+                
+                .search-input {
+                    width: 300px;
+                    margin: 20px auto;
+                }
+                
+                .modal-body {
+                    background-color: var(--bg-color);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                
+                .caixa {
+                    width: 500px;
+                    height: 280px;
+                    border: solid 1px;
+                    border-radius: 20px;
+                    text-align: center;
+                    margin-left: 300px;
+                    background-color: #3c3c3c;
+                }
+                
+                .form-control {
+                    width: 280px;
+                    height: 40px;
+                    margin-left: -53px;
+                }
+                
+                #remenberMe {
+                    width: 280px;
+                    height: 40px;
+                    margin-left: -53px;
+                }
